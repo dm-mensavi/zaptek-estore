@@ -3,5 +3,13 @@
 @tailwind utilities;
 
 body {
-  background-color:  #000300;
+  background-color:  #ebebeb;
+}
+
+.hero-section {
+  background-image: url('../Assets/bgimage.png'); /* Replace with the actual path to your image */
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
