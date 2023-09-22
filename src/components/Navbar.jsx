@@ -11,8 +11,10 @@ const Navbar = () => {
     <nav className="bg-gradient-to-b from-[#201f1f7a] to-transparent absolute inset-x-0 top-0 z-10">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
-          <div className="flex sm:ml-10 flex-shrink-0">
-            <img className="h-8 w-auton sm:inline-block" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company" />
+          <div className="flex sm:ml-10 text-xl flex-shrink-0">
+            <p className="h-10 mt-3 w-20r sm:inline-block" >
+              <span className=' text-white  font-extrabold'><b className=' font-black text-xl text-indigo-700'>eX</b>Store</span>
+            </p>
           </div>
 
           <div className="hidden sm:flex flex-1 justify-center items-center space-x-4">

@@ -7,7 +7,7 @@ body {
 }
 
 .hero-section {
-  background-image: url('../Assets/bgimage.png'); /* Replace with the actual path to your image */
+  background-image: url('./public/bgimage.png'); /* Replace with the actual path to your image */
 }
 
 ::-webkit-scrollbar {
