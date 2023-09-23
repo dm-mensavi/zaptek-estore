@@ -27,15 +27,16 @@ function BestSeller() {
   };
 
   return (
-    <div className="flex flex-col justify-center text-center max-w-7xl mx-2 mb-8 overflow-y-auto">
+    <div className="flex flex-col justify-center text-center max-w-6xl mx-auto mb-8 overflow-y-auto">
       <div className="flex justify-between items-center flex-wrap md:flex-no-wrap mb-4">
-        <h2 className="font-bold text-3xl mb-2 md:mb-0 md:mr-4 px-10 ml-3">Best Seller</h2>
+        <h2 className="font-bold text-3xl mb-2 md:mb-0 md:mr-4 md:ml-8">Best Seller</h2>
       </div>
-      <div ref={containerRef} className="flex ml-10 overflow-x-auto relative">
+
+      <div ref={containerRef} className="flex ml-4 overflow-x-auto relative">
         {products.map((product) => (
-          <div key={product.id} className="w-64 mx-2 p-2 flex-shrink-0 flex-grow-0">
+          <div key={product.id} className="w-70 mx-1 p-2 flex-shrink-0 flex-grow-0">
             <div className="bg-white rounded-lg overflow-hidden shadow-lg">
-              <img className="w-full h-full object-cover object-center" src={product.image} alt={product.name} />
+              <img className="w-full h-full p-3 object-cover object-center" src={product.image} alt={product.name} />
               <div className="px-4 py-2">
                 <div className="font-bold text-sm mb-1 text-left">{product.name}</div>
                 <div className="flex justify-start">

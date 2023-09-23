@@ -4,7 +4,7 @@ import { BsInstagram, BsYoutube, BsTwitch, BsTwitter } from 'react-icons/bs';
 function FooterSection() {
   return (
     <footer className="bg-black text-white px-8 py-8 mt-10">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mx-10">
+      <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mx-10">
         <div className="col-span-1 md:col-span-2 lg:col-span-1 ml-10">
           <span className='text-white font-extrabold'>
             <b className='font-black text-xl text-indigo-700'>eX</b>Store

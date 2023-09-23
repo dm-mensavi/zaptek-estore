@@ -21,14 +21,14 @@ function PopularGames() {
   ];
 
   return (
-    <div className="text-center ml-0">
+    <div className="text-center mx-auto ml-15 max-w-7xl px-4 sm:px-6 lg:px-8 ">
 
       <div className="flex justify-between items-center flex-wrap md:flex-no-wrap mb-4">
-        <h2 className="font-bold md:text-3xl text-xl mb-2 md:mb-0 md:mr-10 pl-20 lg:pl-24">Popular Games</h2>
-        <a href="#" className="text-blue-600 mr-10 xl:pl-36">Browse all games</a>
+        <h2 className="font-bold md:text-3xl text-xl mb-2 md:mb-0 md:ml-[-40px] md:mr-10 pl-4 md:pl-16 lg:pl-24">Popular Games</h2>
+        <a href="#" className="text-blue-600 mr-10 xl:pl-10">Browse all games</a>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 sm:pl-10 xl:mr-[150px] xl:ml-[170px] mx-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 sm:pl-4 xl:mx-10">
         {games.map((game) => (
           <div key={game.id} className="max-w-xs">
             <div className="bg-white rounded-lg overflow-hidden shadow-lg">
@@ -50,3 +50,4 @@ function PopularGames() {
 }
 
 export default PopularGames;
+
