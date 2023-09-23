@@ -10,7 +10,7 @@ function FooterSection() {
             <b className='font-black text-xl text-indigo-700'>eX</b>Store
           </span>
         </div>
-        <div>
+        <div className='flex flex-col shrink-1'>
           <h3 className="text-lg font-bold mb-4">Menu</h3>
           <ul className="space-y-2">
             <li><a href="#" className="text-gray-600 hover:text-white">Order tracking</a></li>
@@ -19,7 +19,7 @@ function FooterSection() {
             <li><a href="#" className="text-gray-600 hover:text-white">Support</a></li>
           </ul>
         </div>
-        <div>
+        <div className='flex flex-col shrink-1'>
           <h3 className="text-lg font-bold mb-4">Resources</h3>
           <ul className="space-y-2">
             <li><a href="#" className="text-gray-600 hover:text-white">Blog</a></li>
@@ -28,7 +28,7 @@ function FooterSection() {
             <li><a href="#" className="text-gray-600 hover:text-white">Guidelines</a></li>
           </ul>
         </div>
-        <div>
+        <div className='flex flex-col shrink-1'>
           <h3 className="text-lg font-bold mb-4">Follow us on</h3>
           <div className="flex space-x-4">
             <a href="#" className="text-gray-600 hover:text-white"><BsInstagram /></a>
